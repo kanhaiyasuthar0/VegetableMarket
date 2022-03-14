@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+
 function Vegetables() {
     const [Tcount , setTcount] = useState(10)
     const [Pcount , setPcount] = useState(8)
@@ -20,8 +21,12 @@ function Vegetables() {
     }
   return (
       <>    
-    <h1>Vegetables</h1>
-    <div>
+
+      <div className='parent'>
+
+
+    <h1   >Vegetables</h1>
+    <div >
 
     <h3> Tomatoes - { Tcount } Kgs</h3>
     <button onClick={()=>handleT(+1)}>+</button>
@@ -46,6 +51,7 @@ function Vegetables() {
     <button onClick={()=>handleO(+1)}>+</button>
     <button onClick={()=>handleO(-1)}>-</button>
     </div>
+      </div>
 
       </>
   )

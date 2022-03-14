@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+// import "./Wishlist.css"
 function Wishlist() {
   const [text, setText] = useState("");
   const [arr, setArr] = useState([]);
@@ -19,6 +19,9 @@ function Wishlist() {
 
   return (
     <>
+    <div  className= "parent" >
+
+
       <h1>Wishlist</h1>
       {/* <input type="text" onChange={handleInput} placeholder='Your item' /> */}
 
@@ -44,6 +47,8 @@ function Wishlist() {
       {arr.map((item) => {
         return <p> {item.item} </p>;
       })}
+    </div>
+
     </>
   );
 }

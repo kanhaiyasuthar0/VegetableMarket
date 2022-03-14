@@ -4,10 +4,19 @@ import Vegetables from './components/Vegetables';
 import Wishlist from './components/Wishlist';
 
 function App() {
+
+ 
   return (
    <> 
+
+
    <Wishlist />
+
+
    <Vegetables/>
+
+
+
    </>
   );
 }
