@@ -23,26 +23,26 @@ function Vegetables() {
     <h1>Vegetables</h1>
     <div>
 
-    <h3> Tomatoes - { Tcount }</h3>
+    <h3> Tomatoes - { Tcount } Kgs</h3>
     <button onClick={()=>handleT(+1)}>+</button>
     <button onClick={()=>handleT(-1)}>-</button>
     </div>
     <div>
-    <h3> Potatoes - { Pcount }</h3>
+    <h3> Potatoes - { Pcount } Kgs</h3>
     <button onClick={()=>handleP(+1)}>+</button>
     <button onClick={()=>handleP(-1)}>-</button>
     </div>
 
     <div>
 
-    <h3> Carrots - { Ccount }</h3>
+    <h3> Carrots - { Ccount } Kgs</h3>
     <button onClick={()=>handleC(+1)}>+</button>
     <button onClick={()=>handleC(-1)}>-</button>
     </div>
   
 
     <div>
-    <h3> Onions - { Ocount }</h3>
+    <h3> Onions - { Ocount } Kgs</h3>
     <button onClick={()=>handleO(+1)}>+</button>
     <button onClick={()=>handleO(-1)}>-</button>
     </div>

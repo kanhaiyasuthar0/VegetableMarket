@@ -6,7 +6,7 @@ import Wishlist from './components/Wishlist';
 function App() {
   return (
    <> 
-   <Wishlist/>
+   <Wishlist />
    <Vegetables/>
    </>
   );
